@@ -105,7 +105,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 ```json
 {
   "clienteid": 10,
-  "tipocuenta": "Ahorros",
+  "tipocuenta": "AHORRO",
   "saldoinicial": 1000.00,
   "estado": true
 }
@@ -125,27 +125,24 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 ### 5. Editar Cuenta
 
-**Endpoint:** `PUT http://localhost:8080/cuentas/{numerocuenta}`
-
 **Ejemplo:** `PUT http://localhost:8080/cuentas/5`
 
-**Request Body:**
 ```json
 {
   "clienteid": 10,
-  "tipocuenta": "Corriente",
+  "tipocuenta": "CORRIENTE",
   "saldoinicial": 1000.00,
   "estado": true
 }
 ```
 
-**Response (200 OK):**
+**Resultado (200 OK):**
 ```json
 {
   "numerocuenta": 5,
   "clienteid": 10,
   "nombreCliente": "Carlos Sanchez",
-  "tipocuenta": "Corriente",
+  "tipocuenta": "CORRIENTE",
   "saldoinicial": 1000.00,
   "estado": true
 }
