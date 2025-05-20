@@ -1,6 +1,6 @@
 # proyecto-microservicioBancario
 proyecto microservicio Bancario con java y maven
-
+A continuación estos son los pasos para crear, editar, eliminar, ádemas para generar movimientos como acreditar y debitar el estado de cuernta:  
 
 
 1-.Pasos para crear un cliente
