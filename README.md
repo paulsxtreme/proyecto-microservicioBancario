@@ -242,23 +242,4 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 ]
 ```
 
-## ⚙️ Instalación y Configuración
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/paulxtreme/proyecto-microservicioBancario.git
-   cd proyecto-microservicioBancario
-   ```
-
-2. Compilar el proyecto:
-   ```bash
-   mvn clean install
-   ```
-
-3. Ejecutar la aplicación:
-   ```bash
-   mvn spring-boot:run
-   ```
-
-
 
