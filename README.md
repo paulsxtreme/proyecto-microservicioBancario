@@ -68,8 +68,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 ### 2. Editar Cliente
 
-**Endpoint:** `PUT http://localhost:8080/clientes/{id}`
-
 **Ejemplo:** `PUT http://localhost:8080/clientes/9`
 
 **Request Body:**
@@ -109,8 +107,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 ```
 
 ### 3. Eliminar Cliente
-
-**Endpoint:** `DELETE http://localhost:8080/clientes/{id}`
 
 **Ejemplo:** `DELETE http://localhost:8080/clientes/8`
 
