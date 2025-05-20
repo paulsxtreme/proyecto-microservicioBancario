@@ -2,6 +2,17 @@
 proyecto microservicio Bancario con java y maven
 
 
+
+1-.Pasos para crear un cliente
+
+
+
+
+
+2-.Pasos para editar un cliente
+
+http://localhost:8080/clientes/9 método "PUT"
+
 {
   "persona": {
     "nombre": "Paul Salazar",
