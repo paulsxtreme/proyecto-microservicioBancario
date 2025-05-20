@@ -204,8 +204,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 ### 8. Consultar Movimientos
 
-**Endpoint:** `GET http://localhost:8080/movimientos/cuenta/{numerocuenta}`
-
 **Ejemplo:** `GET http://localhost:8080/movimientos/cuenta/4`
 
 **Resultado (200 OK):**
