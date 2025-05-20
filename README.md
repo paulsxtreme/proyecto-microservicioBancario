@@ -2,20 +2,6 @@
 
 Proyecto microservicio Bancario desarrollado con Java y Maven que permite realizar operaciones bancarias como crear, editar y eliminar clientes, así como generar movimientos para acreditar y debitar el estado de cuenta.
 
-## 📋 Contenido
-
-- [Operaciones de Clientes](#operaciones-de-clientes)
-  - [Crear Cliente](#1-crear-cliente)
-  - [Editar Cliente](#2-editar-cliente)
-  - [Eliminar Cliente](#3-eliminar-cliente)
-- [Operaciones de Cuentas](#operaciones-de-cuentas)
-  - [Crear Cuenta](#4-crear-cuenta)
-  - [Editar Cuenta](#5-editar-cuenta)
-- [Operaciones de Movimientos](#operaciones-de-movimientos)
-  - [Realizar Depósito](#6-realizar-depósito)
-  - [Realizar Retiro](#7-realizar-retiro)
-  - [Consultar Movimientos](#8-consultar-movimientos)
-
 ## 🔧 Tecnologías
 
 - Java
@@ -46,7 +32,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 }
 ```
 
-**Response (200 OK):**
+**Resultado (200 OK):**
 ```json
 {
   "clienteid": 10,
@@ -70,7 +56,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Ejemplo:** `PUT http://localhost:8080/clientes/9`
 
-**Request Body:**
 ```json
 {
   "persona": {
