@@ -16,7 +16,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Endpoint:** `POST http://localhost:8080/clientes`
 
-**Request Body:**
 ```json
 {
   "persona": {
@@ -71,7 +70,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 }
 ```
 
-**Response (200 OK):**
+**Rusultado (200 OK):**
 ```json
 {
   "clienteid": 9,
@@ -103,7 +102,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Endpoint:** `POST http://localhost:8080/cuentas`
 
-**Request Body:**
 ```json
 {
   "clienteid": 10,
@@ -113,7 +111,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 }
 ```
 
-**Response (201 Created):**
+**Resultado (201 Created):**
 ```json
 {
   "numerocuenta": 5,
@@ -159,7 +157,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Endpoint:** `POST http://localhost:8080/movimientos`
 
-**Request Body:**
 ```json
 {
   "numerocuenta": 4,
@@ -168,7 +165,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 }
 ```
 
-**Response (201 Created):**
+**Resultado (201 Created):**
 ```json
 {
   "id": 6,
@@ -186,7 +183,6 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Endpoint:** `POST http://localhost:8080/movimientos`
 
-**Request Body:**
 ```json
 {
   "numerocuenta": 4,
@@ -195,7 +191,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 }
 ```
 
-**Response (201 Created):**
+**Resultado (201 Created):**
 ```json
 {
   "id": 7,
@@ -215,7 +211,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Ejemplo:** `GET http://localhost:8080/movimientos/cuenta/4`
 
-**Response (200 OK):**
+**Resultado (200 OK):**
 ```json
 [
   {
@@ -269,17 +265,5 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
    mvn spring-boot:run
    ```
 
-4. La API estará disponible en: http://localhost:8080/
 
-## 🧪 Tests
 
-Para ejecutar las pruebas:
-```bash
-mvn test
-```
-
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT.
-
-## 👨‍💻 Autor
-Desarrollado por [Paul Xtreme]
