@@ -94,7 +94,7 @@ Proyecto microservicio Bancario desarrollado con Java y Maven que permite realiz
 
 **Ejemplo:** `DELETE http://localhost:8080/clientes/8`
 
-**Response (204 No Content)**
+**Resultado (204 No Content)**
 
 ## 📊 Operaciones de Cuentas
 
